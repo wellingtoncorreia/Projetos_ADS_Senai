@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        
+        .divCentral{
+            display: flex;
+            flex-wrap: wrap;
+            border: 5px dashed #280097;
+            max-width: 500px;
+            height: 300px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .horizontal{
+            display: flex;
+            flex-direction: row;
+        }
+        .inicio{
+            align-self: flex-start;
+        }
+        .meio{
+            align-self: center;
+        }
+
+        .fim{
+            align-self: flex-end;
+        }
+        .tamanho{
+            color:#f0f0f0;
+            padding: 25px 30px;
+            margin: 10px;
+        }
+
+        .div_um{
+            background-color: blue;
+        }
+
+        .div_dois{
+            background-color: black;
+        }
+
+            .div_tres{
+                background-color: brown;
+            }
+    </style>
+</head>
+<body>
+    <div class="divCentral">
+        <div class="div_um tamanho horizontal inicio">item 1</div>
+        <div class="div_dois tamanho horizontal meio">item 2</div>
+        <div class="div_tres tamanho horizontal fim">item 3</div>
+    </div>
+</body>
+</html>

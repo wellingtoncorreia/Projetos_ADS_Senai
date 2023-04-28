@@ -1,0 +1,23 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.menu-ico{
+    width: 100%;
+    background: #1E1E1E;
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+.menu-ico img{
+    min-width: 30px;
+    min-height: 30px;
+    max-width: 50px;
+    max-height: 50px;
+    margin: 8px 30px;
+    cursor: pointer;
+  }
+

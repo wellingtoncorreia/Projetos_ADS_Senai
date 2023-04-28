@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            display: flex;
+            flex-direction: column;
+        }
+        
+        .item{
+            margin: 5px;
+            padding: 5px;
+            text-align: center;
+            font-size: 1em;
+            color: #f0f0f0;
+        }
+        
+        .divCentral{
+            display: flex;
+            border: 5px dashed #9ac895;
+            width: 100%;
+            max-width: 600px;
+            max-height: 300px;
+            flex-wrap: wrap;
+        }
+
+        .divCentral1{
+            display: flex;
+            border: 5px dashed #ff0000;
+            width: 100%;
+            max-width: 600px;
+            height: 200px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+
+        .div_um{
+            background-color: blue;
+            flex-basis: 1;
+            flex-grow: 2;
+        }
+
+        .div_dois{
+            background-color: rgb(205, 84, 84);
+            flex-basis: 1;
+            flex-grow: 2;
+        }
+
+        .div_tres{
+            background-color: brown;
+            flex-basis: 1;
+            flex-grow: 2;
+        }
+        .div_quatro{
+            background-color: rgb(152, 159, 215);
+            
+        }
+    </style>
+</head>
+<body>
+    <h1>container usando flex-basis e flex-grow</h1>
+    <div class="divCentral">
+        <div class="item div_um">alinhar item 1</div>
+        <div class="item div_dois">alinhar item 2</div>
+        <div class="item div_tres">alinhar item 3</div>
+        <!-- <div class="item div_quatro">alinhar item 4</div> -->
+    </div>
+
+    <h1>container com aling-items: center</h1>
+
+    <div class="divCentral1">
+        <div class="item div_um">alinhar item 1</div>
+        <div class="item div_dois">alinhar item 2</div>
+        <div class="item div_tres">alinhar item 3</div>
+        <!-- <div class="item div_quatro">alinhar item 4</div> -->
+    </div>
+</body>
+</html>

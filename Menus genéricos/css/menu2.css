@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+ /* Mudar o icone de lugar adicionar no nav para funcionar
+    .right{
+    display: flex;
+    justify-content: right;
+    } 
+    .sub-menu{
+        right: 1px;
+    } */
+
+
+/* Fundo do menu */
+.bk-menu{
+    background-color: #171717;
+    padding: 30px;
+    font-size: 1.4rem;
+    height: 25px;
+}
+
+/* div que controla o menu */
+.menu{
+    position: absolute;
+    width: 50px;
+    height: 55px;
+}
+
+/* Ico menu */
+.ico-menu{
+    margin-left: 20px;
+    color: #f0f0f0;
+}
+
+/* Menu escondido o diplay none faz o sub menu desaparecer*/
+.sub-menu{
+    width: 200px;
+    display: none;
+    position: absolute;
+    background-color: #333333;
+    margin-top: 26px;
+    
+}
+
+/* quando passar o mouse no icone o display muda de none para block */
+.menu:hover .sub-menu{
+    display: block;
+}
+
+/* Estilização do link */
+.link{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.link a{
+    text-decoration: none;
+    color: #f0f0f0;
+    margin: 10px;
+}
+
+.link:hover{
+   background-color: #74ad04;
+}

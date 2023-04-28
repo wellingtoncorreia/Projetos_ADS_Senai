@@ -1,0 +1,22 @@
+body{
+  background-color: #bbb; 
+  display:flex;
+  justify-content: center;
+}
+.divPai{
+  display: flex;
+  flex-wrap: wrap;
+  width: 960px;
+}
+
+.items{
+  width: 280px;
+  height: 200px;
+  background-color: #f0f0f0;
+  margin: 20px;
+  font-size: 1.3rem;
+}
+
+.items:hover{
+  border: 4px dashed #100;
+}

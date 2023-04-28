@@ -1,0 +1,23 @@
+  .item{
+            width: 150px;
+            height: 150px;
+            border: 5px dashed #272231;
+            position: fixed;
+            color: #f0f0f0;
+            padding: 15px;
+        }
+
+        .div1{
+            background-color:#a52a2a;
+          /*z-index:1;*/
+        }
+        .div2{
+            top: 50px;
+            left: 50px;
+            background-color:#511cac; 
+        }
+        .div3{
+            top: 100px;
+            left: 100px;
+            background-color:#1c9793;
+        }
