@@ -8,13 +8,13 @@ Esses são alguns projetos que criei para aplicar para meus alunos no módulo b�
 
 ## 🛠️ Construído com
 
-* HTML
+* HTML;
 * CSS
 
 ## ✒️ Autores
 
-* WELLINGTON CORREIA BORSATO JUNIOR
-* ADRIANO ELIAS DANIEL
+<h3>WELLINGTON CORREIA BORSATO JUNIOR</h3>
+<h3>ADRIANO ELIAS DANIEL</h3>
 
 ## 🎁 Expressões de gratidão
 
